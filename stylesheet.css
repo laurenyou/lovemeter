@@ -1,0 +1,138 @@
+html{
+	font-size:2em;
+	background-color: #f4abab;
+	font-family:"Courier New", Courier, monospace;
+	margin-top:20px;
+}
+
+#about{
+	margin-left: 3em;
+	margin-bottom: 1em;
+	width: 500px;
+}
+
+#link {
+	visibility: hidden;
+	width: 1em;
+	padding:5px;
+	font-size: 0.4em;
+	color:white;
+	opacity: 0;
+	transition: opacity 1s;
+
+}
+
+#about:hover #link{
+	visibility: visible;
+	opacity: 1;
+}
+
+#header{
+	text-align: center;
+	margin-left: 35%;
+	font-family:"Courier New", Courier, monospace;
+	font-size:2em;
+}
+
+#header span:hover{
+	font-size: 2.1em;
+	line-height: 0.2em;
+	color: #be5c5c;
+	transition: font-size .1s cubic-bezier(0, 0.75, 0, 1);
+}
+
+#header2{
+	text-align: center;
+	font-size: 0.5em;
+}
+
+#header2:hover{
+	color:white;
+}
+
+#descriptions{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.names:hover{
+	color:white;
+}
+
+#the-input{
+	border: 2px solid violet;
+    border-radius: 6px;
+    outline:none;
+    font-family:"Courier New", Courier, monospace;
+    font-size: 0.5em;
+}
+
+#the-input:focus{
+	border: 3px solid #605;
+}
+
+#the-input2{
+	border: 2px solid violet;
+    border-radius: 6px;
+    outline:none;
+    font-family:"Courier New", Courier, monospace;
+    font-size: 0.5em;
+}
+
+#the-input2:focus{
+	border: 3px solid #605;
+}
+
+#the-button{
+	font-family:"Courier New", Courier, monospace;
+	outline:none;
+	border: 2px solid purple;
+	border-radius: 6px;
+	background-color: rgba(255,255,255,0.7);
+	font-size:1em;
+	cursor: pointer;
+}
+
+#the-button:active{
+	background-color: pink;
+
+}
+
+#the-button:hover{
+	background-color: pink;
+
+}
+
+
+#the-board{
+	text-align: center;
+	margin-top:2em;
+}
+
+#the-board:hover{
+	color:white;
+}
+
+#share{
+	margin-right: 3em;
+	font-size: 0.5em;
+	margin-top: 1em;
+	text-align: right;
+
+}
+
+#share span{
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s;
+
+}
+
+#share:hover span{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+

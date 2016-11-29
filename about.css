@@ -1,0 +1,140 @@
+
+html{
+	font-size:1em;
+	font-family: "Courier New", Courier, monospace;
+	background: -webkit-linear-gradient(#d66868, #f18f8f);
+}
+
+
+#about{
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 1em;
+
+}
+
+#about span:hover{
+	font-size: 3.1em;
+	line-height: 0.2em;
+	color: #773a3a;
+	transition: font-size .1s cubic-bezier(0, 0.75, 0, 1);
+}
+
+#back{
+	margin-top:28px;
+	margin-left: 6em;
+	width:500px;
+}
+
+#link {
+	visibility: hidden;
+	width: 1em;
+	padding:5px;
+	font-size: 0.8em;
+	color:white;
+	opacity: 0;
+	transition: opacity 1s;
+
+}
+
+#back:hover #link{
+	visibility: visible;
+	opacity: 1;
+}
+
+#share{
+	margin-right: 6em;
+	font-size: 0.8em;
+	text-align: right;
+
+}
+
+#share span{
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#share:hover span{
+	visibility: visible;
+	opacity: 1;
+}
+
+#share:hover #link{
+	visibility: hidden;
+}
+
+
+
+#body{
+	background-color: rgba(255,255,255,0.5);
+	margin-bottom:1em;
+	padding:0.5em;
+	border-style: solid;
+	width:80%;
+	margin-left:10%;
+	transition: background-color 1s;
+}
+
+#body:hover{
+	background-color: rgb(255,255,255);
+}
+
+#body2{
+	background-color:rgba(255,255,255,0.5);
+	margin-bottom:1em;
+	padding:0.5em;
+	border-style: solid;
+	width:80%;
+	margin-left:10%;
+	transition: background-color 1s;
+}
+
+#body2:hover{
+	background-color: rgb(255,255,255);
+}
+
+#body3{
+	background-color:rgba(255,255,255,0.5);
+	margin-bottom:1em;
+	padding:0.5em;
+	border-style: solid;
+	width:80%;
+	margin-left:10%;
+	transition: background-color 1s;
+}
+
+#body3:hover{
+	background-color: rgb(255,255,255);
+}
+
+#body4{
+	background-color:rgba(255,255,255,0.5);
+	margin-bottom:1em;
+	padding:0.5em;
+	border-style: solid;
+	width:80%;
+	margin-left:10%;
+	transition: background-color 1s;
+}
+
+#body4:hover{
+	background-color: rgb(255,255,255);
+}
+
+#body5{
+	background-color:rgba(255,255,255,0.5);
+	margin-bottom:1em;
+	padding:0.5em;
+	border-style: solid;
+	width:80%;
+	margin-left:10%;
+	margin-bottom:5em;
+	transition: background-color 1s;
+}
+
+#body5:hover{
+	background-color: rgb(255,255,255);
+}
+
